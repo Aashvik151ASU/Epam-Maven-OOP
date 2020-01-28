@@ -1,0 +1,35 @@
+import turtle
+for i in range(0,10):
+    turtle.hideturtle()
+    turtle.setpos(0,0)
+    turtle.degrees(180)
+    turtle.circle(40)
+    turtle.forward(20)
+    turtle.backward(10)
+    turtle.color("orange","red")
+    turtle.begin_fill()
+    turtle.left(45)
+    turtle.getscreen()
+    
+
+for i in range(0,10):
+    turtle.hideturtle()
+    turtle.setpos(10,10)
+    turtle.forward(10)
+    turtle.degrees(360)
+    turtle.circle(40)
+    turtle.forward(20)
+    turtle.backward(10)
+    turtle.color("red","red")
+    turtle.begin_fill()
+    turtle.right(270)
+    turtle.getscreen()
+for i in range(0,10):
+    turtle.hideturtle()
+    turtle.setpos(100,100)
+    turtle.forward(10)
+    turtle.setpos(110,110)
+    turtle.forward(10)
+    turtle.color("green","red")
+    turtle.begin_fill()
+    turtle.left(45)
